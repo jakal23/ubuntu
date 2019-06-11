@@ -32,6 +32,10 @@ sudo apt install oracle-java11-installer -y
 
 java -version
 
+echo "--------------Install sensors package-------------------"
+sudo apt install lm-sensors -y
+
+echo "--------------Install Git package-------------------"
 sudo apt-get install git -y
 sudo apt install clang -y
 sudo apt install inkscape -y
