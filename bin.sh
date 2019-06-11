@@ -4,6 +4,9 @@
 sudo apt install software-properties-common
 sudo add-apt-repository ppa:linuxuprising/java
 
+#Telegram ppa
+sudo add-apt-repository ppa:atareao/telegram
+
 sudo add-apt-repository ppa:inkscape.dev/stable
 
 wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
@@ -37,12 +40,14 @@ sudo apt install lm-sensors -y
 
 echo "--------------Install Git package-------------------"
 sudo apt-get install git -y
+
+sudo apt install telegram
 sudo apt install clang -y
 sudo apt install inkscape -y
 sudo apt install sublime-text -y
 sudo apt install insomnia -y
-sudo apt-get install jenkins -y
-sudo apt-get install -y aircrack-ng
+sudo apt install jenkins -y
+sudo apt install -y aircrack-ng
 
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
