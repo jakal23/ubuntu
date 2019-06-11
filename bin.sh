@@ -26,18 +26,18 @@ sudo apt-get update
 
 # install
 echo "--------------Install open jdk 8-------------------"
-sudo apt install openjdk-8-jdk
+sudo apt install openjdk-8-jdk -y
 echo "--------------Install open jdk 11-------------------"
-sudo apt install oracle-java11-installer
+sudo apt install oracle-java11-installer -y
 
 java -version
 
-sudo apt-get install git
-sudo apt install clang
-sudo apt install inkscape
-sudo apt install sublime-text
-sudo apt install insomnia
-sudo apt-get install jenkins
+sudo apt-get install git -y
+sudo apt install clang -y
+sudo apt install inkscape -y
+sudo apt install sublime-text -y
+sudo apt install insomnia -y
+sudo apt-get install jenkins -y
 sudo apt-get install -y aircrack-ng
 
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
@@ -48,7 +48,7 @@ sudo apt-get update
 sudo apt-get install code # or code-insiders
 
 sudo apt update
-sudo apt install mysql-server
+sudo apt install mysql-server -y
 sudo mysql_secure_installation
 
 # Windows USB/DVD Download Tool allow you to easily create bootable DVD or USB Keys for Windows 7/8 installation from the ISO file downloaded from Microsoft Store
