@@ -32,6 +32,7 @@ sudo apt install oracle-java11-installer
 
 java -version
 
+sudo apt-get install git
 sudo apt install clang
 sudo apt install inkscape
 sudo apt install sublime-text
