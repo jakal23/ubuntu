@@ -43,6 +43,7 @@ sudo apt-get install git -y
 
 sudo apt install telegram
 sudo apt install clang -y
+sudo apt install ffmpeg
 sudo apt install inkscape -y
 sudo apt install sublime-text -y
 sudo apt install insomnia -y
