@@ -43,13 +43,17 @@ sudo apt-get install git -y
 
 sudo apt install telegram
 sudo apt install clang -y
-sudo apt install youtube-dl
 sudo apt install ffmpeg
 sudo apt install inkscape -y
 sudo apt install sublime-text -y
 sudo apt install insomnia -y
 sudo apt install jenkins -y
 sudo apt install -y aircrack-ng
+
+echo "--------------Install Youtube-dl package-------------------"
+sudo wget https://yt-dl.org/latest/youtube-dl -O /usr/local/bin/youtube-dl
+sudo chmod a+x /usr/local/bin/youtube-dl
+hash -r
 
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
