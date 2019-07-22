@@ -49,6 +49,7 @@ sudo apt install sublime-text -y
 sudo apt install insomnia -y
 sudo apt install jenkins -y
 sudo apt install -y aircrack-ng
+sudo apt install phpmyadmin php-mbstring php-gettext -y
 
 echo "--------------Install Youtube-dl package-------------------"
 sudo wget https://yt-dl.org/latest/youtube-dl -O /usr/local/bin/youtube-dl
