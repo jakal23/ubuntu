@@ -48,6 +48,7 @@ sudo apt install inkscape -y
 sudo apt install sublime-text -y
 sudo apt install insomnia -y
 sudo apt install jenkins -y
+sudo apt install hardinfo -y
 sudo apt install -y aircrack-ng
 sudo apt install phpmyadmin php-mbstring php-gettext -y
 
