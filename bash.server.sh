@@ -31,9 +31,6 @@ sudo apt install hardinfo -y
 sudo apt install -y aircrack-ng
 sudo apt install phpmyadmin php-mbstring php-gettext -y
 
-echo "--------------Install Codec pack packages package-------------------"
-sudo apt install libdvdnav4 libdvdread4 gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly libdvd-pkg
-sudo apt install ubuntu-restricted-extras
 
 echo "--------------Install Youtube-dl package-------------------"
 sudo wget https://yt-dl.org/latest/youtube-dl -O /usr/local/bin/youtube-dl
